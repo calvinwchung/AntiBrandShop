@@ -4,7 +4,7 @@ const NavBar = () => {
   return( 
     <nav className='nav-bar'>
       <Link to ='/'>
-        <h2>Paddle Shop</h2>
+        <h2>The Paddle Shop</h2>
       </Link>
       <Link to='/cart'>
         <div className="nav-bag">
