@@ -1,7 +1,7 @@
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 
 import NavBar from './components/NavBar';
@@ -17,9 +17,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/cart' exact element={<Cart />} />
-          {/* <Route path='/not-found' component={NotFound} /> */}
           <Route path='/' exact element={<Home />} />
-          {/* <Navigate to='/not-found' /> */}
         </Routes>
       </BrowserRouter>
     </div>
