@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +20,8 @@
     "firebase": "^9.11.0",
     "nodemon": "^2.0.20",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0"
   }
 }
